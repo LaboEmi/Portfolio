@@ -1,0 +1,16 @@
+<svg width="359" height="293" viewBox="0 0 359 293" fill="none" xmlns="http://www.w3.org/2000/svg">
+<mask id="mask0_610_38" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="48" width="284" height="245">
+<rect y="48" width="284" height="245" fill="#D9D9D9"/>
+</mask>
+<g mask="url(#mask0_610_38)">
+<path d="M74 293C74 188.618 158.618 104 263 104" stroke="#D46391" stroke-width="16" stroke-linecap="round"/>
+</g>
+<path d="M74 293C74 188.618 158.618 104 263 104" stroke="#FFFAEE"/>
+<path d="M261.178 2.7334L261.178 206.751" stroke="#FFFAEE"/>
+<circle cx="261.503" cy="3.0581" r="2.92383" transform="rotate(90 261.503 3.0581)" fill="#FFFAEE"/>
+<circle cx="261.503" cy="207.076" r="2.92383" transform="rotate(90 261.503 207.076)" fill="#FFFAEE"/>
+<circle cx="261.503" cy="104.418" r="4.2233" transform="rotate(90 261.503 104.418)" fill="#29283F"/>
+<circle cx="261.504" cy="104.418" r="3.57357" transform="rotate(90 261.504 104.418)" fill="#FFFAEE"/>
+<circle cx="261.503" cy="104.418" r="2.27409" transform="rotate(90 261.503 104.418)" fill="#54A0FF"/>
+<path d="M118 290.5C118 211.247 182.247 147 261.5 147C298.657 147 332.515 161.122 358 184.291" stroke="#D46391" stroke-dasharray="6 6"/>
+</svg>
