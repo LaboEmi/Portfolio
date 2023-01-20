@@ -1,0 +1,187 @@
+#projects_page .navbar .header-menu a:nth-child(3) {
+    border-bottom: 4px solid #D46391;
+}
+
+#projects_page .work-specialties {
+    /* margin-top: 60px; */
+    margin-top: 5%;
+}
+
+#projects_page .specialties-flex-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+#projects_page .work-specialties .specialty {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 40px; */
+    font-size: 3vw;
+    line-height: 140%;
+    letter-spacing: -0.011em;
+
+    color: #29283F;
+}
+
+#projects_page .one-cards-row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    margin-top: 65px;
+    margin-top: 5%;
+}
+
+#projects_page .one-project-card {
+    /* width: calc(50% - 30px); */
+    width: 48%;
+}
+
+#projects_page .one-cards-row .one-project-card:nth-child(2) {
+    /* margin-left: 60px; */
+    margin-left: 4%;
+}
+
+#projects_page .one-project-card .project-mobile-title {
+    display: none !important;
+    background: #29283F;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20px; */
+    font-size: 3.6vw;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 1px;
+    color: #FFFFFF;
+    /* padding: 10px 0 16px 0; */
+    padding: 2% 0 3% 0;
+    /* margin-bottom: 16px; */
+    margin-bottom: 4%;
+}
+
+#projects_page .project-card-content {
+    position: relative;
+}
+
+#projects_page .project-card-content .card-body .card-gradient-overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(360deg, #29283F -18.37%, rgba(41, 40, 63, 0) 98.15%);
+}
+
+#projects_page .project-card-content .project-name-wrapper {
+    position: absolute;
+    left: 10%;
+    bottom: 10%;
+    right: 10%;
+}
+
+
+#projects_page .project-card-content .project-name-wrapper .project-name {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 40px; */
+    font-size: 3vw;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 0.5px;
+    color: #FFFAEE;
+    text-shadow: 1px 1px #0000008a;
+}
+
+#projects_page .project-card-content .card-image {
+    width: 100%;
+    height: auto;
+ }
+ #projects_page .one-project-card .card-button-wrapper a {
+    text-decoration: none;
+ }
+
+#projects_page .one-project-card .card-view-btn {
+    background: #D46391;
+    /* padding: 30px 0; */
+    padding: 5% 0;
+    /* width: 100%; */
+    border: none;
+    outline: none;
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20px; */
+    font-size: 1.4vw;
+    line-height: 140%;
+    text-align: center;
+    letter-spacing: 2px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px #0000008a;
+    cursor: pointer;
+}
+
+
+@media only screen and (min-width: 1201px) and (max-width: 1377px) { 
+
+    /* #projects_page .project-card-content .project-name-wrapper .project-name {
+        font-size: 20px;
+    }
+    #projects_page .one-project-card .card-view-btn {
+        font-size: 14px;
+        padding: 15px 0;
+    } */
+
+ }
+
+ @media only screen and (max-width: 600px) {
+
+    #projects_page .one-cards-row {
+        flex-direction: column;
+        margin-top: 7%;
+    }
+    #projects_page .one-project-card {
+        width: 100%;
+    }
+    
+    #projects_page .one-cards-row .one-project-card:nth-child(2) {
+        margin-left: 0;
+        margin-top: 5%;
+    }
+    
+    /* #projects_page .project-card-content .project-name-wrapper .project-name {
+        font-size: 20px;
+    } */
+
+    #projects_page .one-project-card .card-view-btn {
+        font-size: 2.6vw;
+        padding: 3%;
+    }
+
+
+    #projects_page .project-card-content .project-name-wrapper {
+        display: none !important;
+    }    
+
+    #projects_page .project-card-content .card-body .card-gradient-overlay {
+        display: none !important;
+    }
+    
+    #projects_page .one-project-card  .project-mobile-title {
+        display: block !important;
+    }
+
+  }
+
+
+
+
+/* #projects_page 
+#projects_page 
+#projects_page 
+#projects_page 
+#projects_page  */
+

@@ -1,0 +1,108 @@
+#project_details_page .navbar .header-menu a:nth-child(3) {
+    border-bottom: 4px solid #D46391;
+}
+
+#project_details_page .hero-image-holder {
+    text-align: center;
+    margin: 0 5%;
+}
+#project_details_page .hero-image-holder img {
+    width: 100%;
+    height: auto;
+}
+
+#project_details_page .project-details-description-wrapper {
+    /* margin: 68px 5% 100px 5%; */
+    margin: 5.5% 5% 8% 5%;
+}
+#project_details_page .project-title h1 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 60px;
+    font-size: 4.4vw;
+    line-height: 140%;
+    letter-spacing: -0.011em;
+    color: #29283F;
+}
+#project_details_page .project-subtitle h3 {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 40px; */
+    font-size: 2.9vw;
+    line-height: 140%;
+    letter-spacing: -0.011em;
+    color: #D46391;
+}
+#project_details_page .project-description p {
+    font-family: 'Source Sans Pro';
+    font-style: normal;
+    font-weight: 400;
+    /* font-size: 18px; */
+    font-size: 1.3vw;
+    line-height: 170%;
+    color: #29283F;
+}
+#project_details_page .project-details-images-wrapper {
+    text-align: center;
+}
+#project_details_page .first-row-images {
+    margin-bottom: 60px;
+}
+#project_details_page .flex-images img:first-child {
+    margin-right: 60px;
+}
+#project_details_page .page-bar {
+    margin: 150px 5% 0 5%;
+    display: flex;
+    justify-content: space-between;
+}
+
+#project_details_page .page-bar .page-wrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+#project_details_page .page-bar .prev-icon {
+    margin-right: 20px;
+}
+#project_details_page .page-bar .next-icon {
+    margin-left: 20px;
+}
+#project_details_page .page-bar .paging-label {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 600;
+    /* font-size: 20px; */
+    font-size: 1.3vw;
+    line-height: 140%;
+    /* letter-spacing: -0.011em; */
+    text-transform: uppercase;
+    color: #29283F;
+}
+
+#project_details_page .classification-wrapper {
+    margin: 5%;
+    display: flex;
+}
+
+#project_details_page .classification {
+    font-family: 'Playfair Display';
+    font-style: normal;
+    font-weight: 700;
+    /* font-size: 40px; */
+    font-size: 3vw;
+    line-height: 140%;
+    letter-spacing: -0.011em;
+    text-transform: uppercase;
+    color: #29283F;
+}
+
+#project_details_page .blank_line {
+    border-bottom: 3px solid #29283F;
+    flex: 1;
+    /* margin-left: 10px; */
+    margin-left: 1%;
+}
