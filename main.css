@@ -225,6 +225,11 @@ body {
     max-width: 20%;
     flex: 1 0 21%;
 }
+
+.connect-container .connect-1 .social-media-connect .sm-icon-wrapper a { 
+    text-decoration: none;
+    color: #FFFAEE !important;
+}
 .connect-container .connect-1 .social-media-connect .sm-icon-wrapper:first-child {
     margin-left: 0 !important;
 }
